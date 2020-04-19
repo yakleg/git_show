@@ -2,6 +2,11 @@ function getYear() {
     return new Date().getFullYear();
 }
 
+const greet = () => {
+    console.group("Hello User!!!")
+}
+
 module.exports = {
-    getYear: getYear
+    getYear: getYear,
+    greet: greet
 };
